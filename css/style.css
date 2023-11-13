@@ -1,0 +1,504 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{  
+    font-family: 'Open Sans', sans-serif;
+
+}
+h1,h2{
+    font-family: 'Abril Fatface', serif;
+}
+h3,h4,h5,h6,button,a{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+   list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* common css End */
+/* top_bar css section start  */
+#top_bar{
+    background-color: #0f2f44;
+}
+
+
+#top_bar p{
+    color: #fefefe;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 13px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* top_bar css section  End   */
+/* primary css stsrt */
+#primary_nav .row{
+    align-items: center;
+}
+#primary_nav ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    text-transform: capitalize;
+    padding: 40px 18px;
+    transition: .6s;
+}
+#primary_nav ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+}
+#primary_nav ul li button{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    background: none;
+    margin-left: 20px;
+}
+#primary_nav ul li button:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+    cursor: pointer;
+}
+/* primary css End */
+/* banner css start */
+#banner{
+    background-image: url('./../img/banner_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#banner .inner_container{
+    width: 40%;
+}
+#banner h3{
+   font-size: 50px;
+   line-height: 70px;
+   color: #0f2f44;
+   font-weight: 300;
+}
+#banner h1{
+    font-size: 80px;
+    line-height: 70px;
+    color: #0f2f44;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#banner h4{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    letter-spacing: 15px;
+    color: #8484bf;
+    margin: 10px 0;
+}
+#banner p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    margin: 20px 0;
+}
+#banner a{
+   background-color: #ffffff;
+    color:#8484bf;
+    padding: 13px 19px;
+    text-transform: capitalize;
+    border-radius: 10%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    transition: .6s;
+}
+#banner a:hover{
+    background-color: #8484bf;
+    color: #ffffff;
+}
+#banner button{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+    color: #8484bf;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    box-shadow: 0 7px 20px 0 rgba(132,132,191,0.30);
+    transition: .6s;
+}
+#banner button:hover{
+    color: #ffffff;
+    background-color: #8484bf;
+}
+/* banner css start */
+/* about us css  start */
+#aboutus .inner_container{
+width: 50%;
+}
+#aboutus{
+    height: 697px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#aboutus h6{
+    font-weight: 300;
+    font-size: 14px;
+    color: #0f2f44;
+}
+#aboutus h2{
+    font-weight: 400;
+    font-size: 32px;
+    color: #0f2f44;
+}
+#aboutus p{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0;
+
+}
+#aboutus ul li{
+    font-size: 16px;
+    line-height: 44px;
+    color: #0f2f44;
+   padding: 0 0 0 30px;
+    
+}
+
+#aboutus a{
+    font-size: 20px;
+    line-height: 44px;
+    font-weight: 500;
+    color: #0f2f44;
+    background: #ffffff;
+    border-radius: 10%;
+    text-transform: capitalize;
+    padding: 5px 19px;
+    transition: .6s;
+    box-shadow: 0 7px 20px 0 rgba(132,132,191,0.40);
+    margin-top: 20px;
+} #aboutus a:hover{
+    cursor: pointer;
+    background-color: #ffc712;
+}
+#aboutus .margin{
+    margin-right: 19px;
+}
+/* about us css  End */
+/* skill css start */
+#skill .skillbg{
+    width: 60%;
+   
+}
+#skill .inner_container{
+    width: 40%;
+ 
+}
+#skill h6{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    color: #0f2f44;
+}
+#skill h2{
+    font-size: 32px;
+    color: #0f2f44;
+    text-align: right;
+}
+#skill p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+#skill img{
+    width: 90%;
+}
+#skill span p{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+}
+/* skill css End */
+/* service css start */
+#service{
+    background-color: #f5f5f5;
+    height: 423px;
+}
+#service .service_info{
+    width: 100%;
+    height: 158px;
+    display: block;
+    padding: 50px 500px;
+}
+#service .service_box{
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px;
+    background-color: #e9e9e9;
+    align-items: center;
+    padding: 28px 10px;
+    position: relative;
+}
+#service .service_box .service_box_icon{
+    width: 100px;
+    text-align: center;
+   
+}
+#service .service_box .service_box_info{
+    width: calc(100% - 100px);
+    background-color: #eeeeee;
+}
+#service .service_box .service_box_info h3{
+   margin-bottom: 10px;
+}
+#service .service_box .overlay{
+    background: #0f2f44;
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: .7s;
+    transform: scale(0);
+}
+#service .service_box:hover .overlay{
+    transform: scale(1);
+}
+#service .service_box .overlay a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #ffc712;
+   
+}
+/* service css End */
+/* portfolio css start */
+#portfolio{
+    height: 831px;
+    background-color: #ffffff;
+}
+#portfolio .portfolio_info{
+    width: 100%;
+    height: 200px;
+    display: block;
+   padding: 92px 500px;
+   
+}
+#portfolio .fortfolio_info h6{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: right;
+    color: #0f2f44;
+}
+#portfolio .fortfolio_info h2{
+    font-size: 32px;
+    color: #0f2f44;
+    text-align: right;
+}
+#portfolio .portfolio_img{
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px;
+    position: relative;
+} 
+#portfolio .portfolio_img img{
+    width: 100%;
+    display: block;
+}
+#portfolio .portfolio_img .overlay{
+    background-color: #ffffff;
+    padding: 25px 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: .7s;
+   transform: scaleY(0);
+   transform-origin: bottom, top;
+  
+}
+#portfolio .portfolio_img:hover .overlay{
+    transform: scaleY(1);
+    box-shadow: 0 15px 50px 10px rgba(0,0,0,0.15);
+}
+#portfolio .btn{
+    background-color: #ffc712;
+    color: #0f2f44;
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 44px;
+  width: max-content;
+  padding: 5px 20px;
+  margin: 58px 511px;
+  border-radius: 5%;
+}
+/* portfolio css End */
+/* testimonial css start */
+#testimonial{
+    background-color: #f5f5f5;
+    height: 442px;
+}
+#testimonial .testimonial_info h6{
+    font-weight: 300;
+    font-size: 14px;
+  text-align: center;
+    color: #0f2f44;
+}
+#testimonial .testimonial_info h2{
+    font-size: 32px;
+    color: #0f2f44;
+    text-align: center;
+}
+#testimonial .testimonial_info{
+    padding: 55px 0;
+}
+#testimonial .testimonial_box{
+    width: calc(100% / 2 - 30px);
+    margin: 0 15px;
+    background-color: #e9e9e9;
+}
+#testimonial .testimonial_box .testimonial_icon{
+    width: 214px;
+}
+#testimonial .testimonial_box .testimonial_inner_info{
+width: calc(100% - 214px);
+}
+#testimonial .testimonial_box .testimonial_inner_info p{
+    padding: 27px 10px;
+}
+#testimonial .testimonial_box .testimonial_inner_info h3{
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0f2f44;
+}
+#testimonial .testimonial_box .testimonial_inner_info h6{
+    padding-left: 20px;
+    color: #636f7a;
+}
+/* testimonial css End */
+/* latest blog css start */
+#blog{
+height: 890px;
+background-color: #ffffff;
+padding-top: 100px;
+}
+#blog .blog_info h6{
+    font-weight: 300;
+    font-size: 14px;
+  text-align: center;
+    color: #0f2f44;
+}
+#blog .blog_info h2{
+    font-size: 32px;
+    color: #0f2f44;
+    text-align: center;
+}
+#blog .blog_box{
+    margin: 67px 0;
+}
+#blog .blog_box .blog_inner_box{
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px;
+    background-color: #f5f5f5; 
+    transition: .7s; 
+}
+#blog .blog_box .blog_inner_box:hover{
+    background-color: #0f2f44;
+    color: #ffffff;
+}
+#blog .blog_box .blog_inner_box .blog_item{
+    margin: 20px;
+   
+}
+#blog .blog_box .blog_inner_box .blog_item .blog_icon img{
+    width: 100%;
+}
+#blog .blog_box .blog_item .blog_info h3{
+margin: 19px 0;
+line-height: 26px;
+}
+#blog .blog_box .blog_inner_box .blog_item .blog_info img{
+padding-left: 10px;
+}
+
+#blog .blog_box .blog_inner_box .blog_item .blog_info p{
+    margin-top: 10px;
+}
+#blog .blog_box .blog_inner_box .blog_item .blog_info .right_arrow_padding{
+    padding-bottom: 20px;
+}
+
+/* latest blog css End */
+
+/* footer css start */
+footer .footer_box:nth-child(1),
+footer .footer_box:nth-child(2){
+    width: 25%;
+}
+footer .footer_box:nth-child(3){
+width: 20%;
+}
+footer .footer_box:nth-child(4){
+width: 30%;
+}
+footer .footer_box:nth-child(1) p{
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 10px;
+    margin: 20px 0;
+}
+footer .footer_box:nth-child(1) ul li a i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #143448;
+    border-radius: 50%;
+    background-color: none;
+    margin-right: 10px;
+    padding: 5px 5px;
+}
+footer .footer_box:nth-child(2) ul li .pasapasi{
+    width: 227px;
+    padding-left: 10px;
+
+}
+footer .footer_box:nth-child(2) ul li .center{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+footer .footer_box:nth-child(2) ul .distance{
+    margin: 10px 0;
+}
+footer .footer_box:nth-child(3) ul li{
+    padding: 5px 0;
+    font-size: 14px;
+}
+footer .footer_box:nth-child(3) ul{
+    margin: 10px 0;
+}
+footer .footer_box:nth-child(4) .distance{
+    margin: 10px 0;
+}
+
+/* footer css End */
